@@ -14,7 +14,7 @@ end
 
 error do
 	e = request.env['sinatra.error']
-	log_error("Unhandled error",request.env['sinatra.error']
+	log_error("Unhandled error",request.env['sinatra.error'])
 	"Application error"
 end
 
